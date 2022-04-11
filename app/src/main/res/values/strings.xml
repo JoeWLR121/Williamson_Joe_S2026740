@@ -1,0 +1,12 @@
+<resources>
+    <!--Joe Williamson, S2026740-->
+    <string name="app_name">Williamson_Joe_S2026740</string>
+    <string name="startPtxt">Planned</string>
+    <string name="startCtxt">Current</string>
+    <string name="startRtxt">All Roadworks</string>
+    <string name="searchtxt">Search Roads</string>
+    <string name="searchlbl">Enter Search:</string>
+    <string name="datesearch">Search Date</string>
+    <string name="hellomsg">Welcome To Incident Finder</string>
+    <string name="clear">Clear Entries</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Joe Williamson, S2026740-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--  Length layout  -->
+    <!--  Breadth data entry  -->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startButtonPlan"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/startPtxt" />
+
+        <Button
+            android:id="@+id/startButtonCurrent"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/startCtxt" />
+
+        <Button
+            android:id="@+id/startButtonRoad"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/startRtxt" />
+
+        <requestFocus />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal"
+            android:text="@string/searchtxt" />
+
+        <EditText
+            android:id="@+id/searchInput"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            />
+
+        <requestFocus />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/datesearch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <DatePicker
+            android:id="@+id/datePick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:orientation="horizontal" />
+
+        <requestFocus />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:divider="@color/purple_200"
+        android:dividerHeight="1dp" />
+
+
+</LinearLayout>
